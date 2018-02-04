@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akqa.Web", "Akqa.Web\Akqa.Web.csproj", "{F5440939-FB6D-4C17-857E-4C7DBA9299F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akqa.Logic", "Akqa.Logic\Akqa.Logic.csproj", "{B42A3249-7F2E-42BD-9954-DB2CEFC30615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akqa.Tests", "Akqa.Tests\Akqa.Tests.csproj", "{2C3235BB-30C7-4C70-A00B-43DB89489D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5440939-FB6D-4C17-857E-4C7DBA9299F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5440939-FB6D-4C17-857E-4C7DBA9299F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5440939-FB6D-4C17-857E-4C7DBA9299F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5440939-FB6D-4C17-857E-4C7DBA9299F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B42A3249-7F2E-42BD-9954-DB2CEFC30615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42A3249-7F2E-42BD-9954-DB2CEFC30615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42A3249-7F2E-42BD-9954-DB2CEFC30615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42A3249-7F2E-42BD-9954-DB2CEFC30615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3235BB-30C7-4C70-A00B-43DB89489D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3235BB-30C7-4C70-A00B-43DB89489D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3235BB-30C7-4C70-A00B-43DB89489D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3235BB-30C7-4C70-A00B-43DB89489D02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

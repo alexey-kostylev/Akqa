@@ -1,0 +1,32 @@
+﻿@model Akqa.Web.Models.ConvertedModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Converted</title>
+</head>
+<body>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                Output
+            </h4>
+        </div>    
+        <div class="panel-body" style="padding-bottom: 20px">            
+            @Model.Name
+            <br />
+            "@Model.Text"            
+        </div>
+        <div class="panel-footer">
+            @Html.ActionLink("Convert again", "Index")
+        </div>
+    </div>    
+
+</body>
+</html>
