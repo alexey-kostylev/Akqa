@@ -1,4 +1,4 @@
-Solution captures name and a number, converts the number into a word representation and returns this data back as a web page.	
+Solution captures a name and a number, converts the number into a word representation and returns this data back as a web page.	
 
 solution employs ASP.NET MVC technology using Visual Studio 2015.
 
